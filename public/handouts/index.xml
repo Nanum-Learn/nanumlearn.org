@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Free Handouts on Nanum Learn</title>
-		<link>https://nanumlearn.enochyu.com/handouts/</link>
+		<link>https://nanumlearn.org/handouts/</link>
 		<description>Recent content in Free Handouts on Nanum Learn</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -10,6 +10,6 @@
 		
 		
 		
-			<atom:link href="https://nanumlearn.enochyu.com/handouts/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://nanumlearn.org/handouts/index.xml" rel="self" type="application/rss+xml" />
 	</channel>
 </rss>

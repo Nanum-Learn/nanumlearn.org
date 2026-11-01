@@ -9,7 +9,7 @@ export default {
 
     const allowedOrigins = [
       'http://localhost:1313', 
-      'https://nanumlearn.enochyu.com',
+      'https://nanumlearn.org',
     ];
 
     const origin = request.headers.get('Origin');

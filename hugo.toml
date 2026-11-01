@@ -1,4 +1,4 @@
-baseURL = 'https://nanumlearn.enochyu.com/'
+baseURL = 'https://nanumlearn.org/'
 locale = 'en-us'
 title = 'Nanum Learn'
 
@@ -19,11 +19,11 @@ disableKinds = ["taxonomy"]
 author = "Enoch Yu"
 favicon = "/img/favicon/favicon.ico"
   [params.social]
-    youtube = "https://www.youtube.com/@enochyu_official"
+    youtube = "https://www.youtube.com/@NanumLearn"
     discord = "https://discord.gg/6ABSqUf63"
     github = "https://github.com/Nanum-Learn"
   [params.comments]
-    api = "https://nanumlearn.enochyu.com/api/comments"
+    api = "https://nanumlearn.org/api/comments"
     site = "nanumlearn"
     turnstile = "0x4AAAAAAFsYp2Nsr1n9RUic"
 
