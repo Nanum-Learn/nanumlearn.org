@@ -1,4 +1,4 @@
-# nanumlearn.enochyu.com
+# nanumlearn.org
 
 Source files for the official website built with [Hugo](https://gohugo.io/)
 and ❤️

@@ -6,7 +6,7 @@ export const GITHUB = {
 
 export const SITES = new Map([
   ['nanumlearn', {
-    origin: 'https://nanumlearn.enochyu.com',
+    origin: 'https://nanumlearn.org',
     threads: '/comment-threads.json',
     reserved: ['enochyu', 'williamkang', 'jianchoi', 'nanumlearn', 'admin', 'moderator', 'maintainer', 'verified'],
   }],
