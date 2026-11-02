@@ -1,5 +1,5 @@
 export const GITHUB = {
-  owner: 'Nanum-Learn',
+  owner: 'NanumLearn',
   repo: 'website-comments',
   category: 'comments',
 };
