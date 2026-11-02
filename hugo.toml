@@ -21,7 +21,7 @@ favicon = "/img/favicon/favicon.ico"
   [params.social]
     youtube = "https://www.youtube.com/@NanumLearn"
     discord = "https://discord.gg/6ABSqUf63"
-    github = "https://github.com/Nanum-Learn"
+    github = "https://github.com/NanumLearn"
   [params.comments]
     api = "https://nanumlearn.org/api/comments"
     site = "nanumlearn"
