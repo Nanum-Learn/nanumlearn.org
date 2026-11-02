@@ -25,11 +25,7 @@ Such areas include, but are not limited to:
 * Planning upcoming classes
 
 This is it for our current status! Thank you for your interest, and
-please don't forget to join our YouTube channel and discord server
-for more updates and notice on future classes!
-
-
-
-
+please don't forget to join our YouTube channel for more updates and
+notice on future nanums!
 
 

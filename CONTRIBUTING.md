@@ -3,7 +3,8 @@
 First and foremost, thank you so much for your interest and taking
 your time to contribute! All contributions are welcomed and encouraged
 with minor details below. To contribute, please either open an issue
-or submit a pull request.
+or submit a pull request. If you are less familiar with Git, you can
+also email us at info@nanumlearn.org.
 
 * Type of Contribution: Really any contributions ranging from fixing
   a typo to helping us lead classes and make resources are welcomed!
