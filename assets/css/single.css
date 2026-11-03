@@ -73,6 +73,16 @@
   text-decoration: none;
 }
 
+.rows .formats {
+  display: flex;
+  flex-shrink: 0;
+  gap: 20px;
+}
+
+.rows .formats a:hover {
+  text-decoration: underline;
+}
+
 .rows li > span,
 .rows time {
   color: var(--muted);

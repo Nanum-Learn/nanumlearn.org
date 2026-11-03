@@ -1,38 +1,29 @@
 <footer class="footer">
   <div class="wrap">
-    <p>&copy; {{ now.Year }} Nanum Learn. All Rights Reserved.</p>
-    <nav>
-      {{ with .Site.Params.social }}
-      <a href="{{ .youtube }}" target="_blank" rel="noopener">YouTube</a>
-      &bull;
-      <a href="{{ .github }}" target="_blank" rel="noopener">GitHub</a>
-      {{ end }}
-      &bull;
-      <a href="mailto:info@nanumlearn.org">info@nanumlearn.org</a>
-    </nav>
+    <a href="/" class="footer-brand"><img src="/logo/logo-inline.svg" alt="Nanum Learn"></a>
+    <div class="footer-links">
+      <nav aria-label="Explore">
+        <p>Explore</p>
+        {{ range slice "books" "classes" "handouts" "news" "about" }}
+        <a href="/{{ . }}/">{{ title . }}</a>
+        {{ end }}
+      </nav>
+      <nav aria-label="Connect">
+        <p>Connect</p>
+        {{ with .Site.Params.social }}
+        <a href="{{ .youtube }}" target="_blank" rel="noopener">YouTube</a>
+        <a href="{{ .github }}" target="_blank" rel="noopener">GitHub</a>
+        {{ end }}
+        <a href="mailto:info@nanumlearn.org">info@nanumlearn.org</a>
+        <a href="{{ "contribute/" | relURL }}">Contribute</a>
+      </nav>
+      <nav aria-label="Legal">
+        <p>Terms &amp; Policies</p>
+        <a href="{{ "privacy/" | relURL }}">Privacy Policy</a>
+        <a href="{{ "terms/" | relURL }}">Terms of Use</a>
+        <a href="{{ "code-of-conduct/" | relURL }}">Code of Conduct</a>
+      </nav>
+    </div>
+    <p class="footer-copy">&copy; {{ now.Year }} Nanum Learn.</p>
   </div>
-
-  {{ if .IsPage }}
-  <script>
-    MathJax = {
-      options: {
-        menuOptions: {
-          settings: {
-            enrich: false,
-            collapsible: false,
-            speech: false,
-            braille: false,
-            assistiveMml: false,
-          }
-        }
-      },
-      tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']],
-        displayMath: [['\\[', '\\]'], ['$$', '$$']]
-      },
-      svg: { fontCache: 'global' }
-    };
-  </script>
-  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-svg.js"></script>
-  {{ end }}
 </footer>
