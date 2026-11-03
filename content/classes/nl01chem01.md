@@ -10,6 +10,16 @@ description = "An introduction to chemistry for curious middle school students"
 image = "/logo/logo.svg"
 links = [
   {
+    name = "Problem Set 1",
+    pdf = "/pdf/nl01chem01/NL01CHEM01S1_problems.pdf",
+    source = "https://github.com/NanumLearn/Nanums/nl01chem01/NL01CHEM01S1_problems.tex"
+  },
+  {
+    name = "Solutions for Problem Set 1",
+    pdf = "/pdf/nl01chem01/NL01CHEM01S1_solutions.pdf",
+    source = "https://github.com/NanumLearn/Nanums/nl01chem01/NL01CHEM01S1_solutions.tex"
+  },
+  {
     name = "Register",
     url = "https://forms.gle/wCS4RWX9rFAkTBMU7"
   }

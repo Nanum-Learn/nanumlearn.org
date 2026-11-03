@@ -25,9 +25,21 @@
   padding-left: 1.3em;
 }
 
+.prose ol {
+  margin-block: 1.2em;
+  padding-left: 3.5em;
+}
+
 .prose li ul,
 .prose li + li {
   margin-top: 0.4em;
+}
+
+.prose .signature {
+  margin-top: 1.2em;
+  color: var(--muted);
+  font-style: italic;
+  text-align: right;
 }
 
 .prose img {

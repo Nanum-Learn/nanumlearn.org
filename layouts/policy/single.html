@@ -1,0 +1,13 @@
+{{ define "main" }}
+<header class="page-head">
+  <div class="wrap narrow">
+    <h1>{{ .Title }}</h1>
+    <p class="lead">Last updated {{ .Date.Format "January 2, 2006" }}</p>
+  </div>
+</header>
+<section class="section">
+  <div class="wrap narrow">
+    <div class="prose">{{ .Content }}</div>
+  </div>
+</section>
+{{ end }}

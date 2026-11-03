@@ -29,10 +29,21 @@
   </section>
 
   <section class="block">
-    <h2>{{ if eq .Section "books" }}Access the Book{{ else }}Access Classes{{ end }}</h2>
+    <h2>{{ if eq .Section "books" }}Access the Book{{ else }}Access Nanums{{ end }}</h2>
     <ul class="rows">
       {{ range .Params.links }}
-      <li>{{ if .url }}<a href="{{ .url }}" class="ext" target="_blank" rel="noopener">{{ .name }}</a>{{ else }}<span>{{ .name }}</span>{{ end }}</li>
+      <li>
+        {{ if .url }}<a href="{{ .url }}" class="ext" target="_blank" rel="noopener">{{ .name }}</a>
+        {{ else if or .pdf .source }}
+        <div>
+          <span>{{ .name }}</span>
+          <span class="formats">
+            {{ with .pdf }}<a href="{{ . }}" class="ext" target="_blank" rel="noopener">PDF</a>{{ end }}
+            {{ with .source }}<a href="{{ . }}" class="ext" target="_blank" rel="noopener">Source (Git)</a>{{ end }}
+          </span>
+        </div>
+        {{ else }}<span>{{ .name }}</span>{{ end }}
+      </li>
       {{ end }}
     </ul>
   </section>
