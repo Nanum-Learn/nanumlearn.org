@@ -6,7 +6,6 @@ status = "Completed"
 date = 2025-09-01
 classnum = 9
 description = "Four live classes for introducing competition style problems to elementary school students"
-image = "/logo/logo-inline.svg"
 links = [
   {
     name = "Entire Playlist",

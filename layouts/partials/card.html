@@ -1,4 +1,5 @@
 <a href="{{ .RelPermalink }}" class="card">
+  {{ with partial "thumb.html" . }}<img src="{{ . }}" alt="" class="thumb{{ if eq $.Section "books" }} cover{{ end }}" loading="lazy">{{ end }}
   <h3>{{ .Title }}</h3>
   <p class="meta">{{ replace .Params.status "WIP" "In progress" }} · {{ .Date.Format "January 2006" }}{{ with .Params.classnum }} · {{ . }} classes{{ end }}</p>
   {{ with .Params.time }}<p class="meta">{{ . }}</p>{{ end }}

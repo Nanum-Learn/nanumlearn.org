@@ -5,7 +5,7 @@
     {{ range .RegularPages.GroupByDate "2006" }}
     <h2 class="year">{{ .Key }}</h2>
     <div class="grid">
-      {{ range .Pages }}{{ partial "card.html" . }}{{ end }}
+      {{ range .Pages.ByWeight }}{{ partial "card.html" . }}{{ end }}
     </div>
     {{ end }}
   </div>

@@ -70,3 +70,24 @@ a.card > * {
     transform: scale(1.05);
   }
 }
+
+.card .thumb {
+  width: calc(100% + 56px);
+  max-width: none;
+  margin: -28px -28px 4px;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: calc(var(--radius) - 1px) calc(var(--radius) - 1px) 0 0;
+}
+
+.card .thumb.cover {
+  padding: 20px;
+  object-fit: contain;
+  background: var(--bg-alt);
+}
+
+@media (hover: hover) {
+  a.card:hover > .thumb {
+    transform: none;
+  }
+}

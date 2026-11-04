@@ -6,7 +6,6 @@ status = "Completed"
 date = 2025-07-29
 classnum = 3
 description = "Live classes for middle and high school students interested in AMC 10/12"
-image = "/logo/logo.svg"
 links = [
   {
     name = "Class 1",

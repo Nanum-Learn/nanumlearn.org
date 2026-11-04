@@ -1,0 +1,18 @@
+{{ $handwritten := .page.Params.handwritten }}
+<ul class="rows">
+  {{ range .links }}
+  <li>
+    {{ if .url }}<a href="{{ .url }}" class="ext" target="_blank" rel="noopener">{{ .name }}</a>
+    {{ else if or .video .pdf .source }}
+    <div>
+      <span>{{ .name }}</span>
+      <span class="formats">
+        {{ with .video }}<a href="{{ . }}" class="ext" target="_blank" rel="noopener">Video</a>{{ end }}
+        {{ with .pdf }}<a href="{{ . }}" class="ext" target="_blank" rel="noopener">PDF{{ if $handwritten }} (Handwritten){{ end }}</a>{{ end }}
+        {{ with .source }}<a href="{{ . }}" class="ext" target="_blank" rel="noopener">Source (Git)</a>{{ end }}
+      </span>
+    </div>
+    {{ else }}<span>{{ .name }}</span>{{ end }}
+  </li>
+  {{ end }}
+</ul>

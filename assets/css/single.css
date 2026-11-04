@@ -47,6 +47,11 @@
   font-size: clamp(26px, 3vw, 32px);
 }
 
+.block .session {
+  margin: 40px 0 12px;
+  font-size: 21px;
+}
+
 .rows {
   padding: 0;
   border-top: 1px solid var(--line);
@@ -133,5 +138,67 @@
 
   .pager .next {
     grid-column: auto;
+  }
+}
+
+.detail-head.wide {
+  max-width: none;
+}
+
+.detail-head.wide h1,
+.detail-head.wide .lead {
+  max-width: 760px;
+}
+
+.detail-head.wide .overview {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 40px;
+  margin-top: 36px;
+}
+
+.detail-head.wide .facts {
+  align-self: start;
+  margin-top: 0;
+}
+
+.detail-head .thumb {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.detail-head.wide .thumb {
+  align-self: stretch;
+  width: calc((var(--rows) * 1lh + (var(--rows) - 1) * 10px) * 16 / 9);
+  height: auto;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.detail-head.wide .thumb.cover {
+  align-self: start;
+  width: 160px;
+  aspect-ratio: auto;
+  border-radius: 4px;
+}
+
+@media (max-width: 734px) {
+  .detail-head.wide .overview {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .detail-head.wide .thumb {
+    align-self: start;
+    width: 100%;
+    border-radius: var(--radius);
+  }
+
+  .detail-head.wide .thumb.cover {
+    width: 200px;
+    border-radius: 4px;
   }
 }

@@ -1,0 +1,3 @@
+{{ $src := "" }}
+{{ with .Params.image }}{{ if fileExists (path.Join "static" .) }}{{ $src = . }}{{ end }}{{ end }}
+{{ return $src }}
