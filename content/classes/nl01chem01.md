@@ -20,7 +20,7 @@ sessions = [
     links = [
       {
         name = "Recording",
-        video = ""
+        video = "https://youtu.be/wOldQn51SEw"
       },
       {
         name = "Slides",
