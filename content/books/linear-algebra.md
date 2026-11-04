@@ -4,12 +4,14 @@ author = "Enoch Yu"
 weight = 2
 status = "Completed"
 date = 2026-08-16
+aliases = ["/books/26001/"]
 description = "A free 173 pages beginner's guide to linear algebra that contains essential topics and practice problems"
 link = "https://archive.enochyu.com/mathematics/pdf/26101.pdf"
+image = "/img/thumbnails/linear-algebra.png"
 links = [
   {
     name = "Free PDF",
-    url = "https://archive.enochyu.com/mathematics/pdf/26101.pdf"
+    url = "https://archive.enochyu.com/a/pdf/A26101.pdf"
   },
   {
     name = "Amazon",

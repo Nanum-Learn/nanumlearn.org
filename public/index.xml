@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Tue, 03 Nov 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Wed, 04 Nov 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="https://nanumlearn.org/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -22,23 +22,23 @@
 			</item>
 			<item>
 				<title>LibreNotebook</title>
-				<link>https://nanumlearn.org/books/26002/</link>
+				<link>https://nanumlearn.org/books/librenotebook/</link>
 				<pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>https://nanumlearn.org/books/26002/</guid>
+				<guid>https://nanumlearn.org/books/librenotebook/</guid>
 				<description>&lt;p&gt;LibreNotebook is Enoch Yu&amp;rsquo;s giant and free personal notebook.&#xA;The purpose is to inspire and accelerate open education as a&#xA;way of returning the blessings that I received from public&#xA;educational resources.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Problem of the Day: 100 Problems for 100 Days</title>
 				<link>https://nanumlearn.org/classes/archive26/</link>
-				<pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+				<pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
 				<guid>https://nanumlearn.org/classes/archive26/</guid>
-				<description>&lt;p&gt;As the name suggests, &amp;ldquo;Problem of the Day: 100 Problem for 100 Days&amp;rdquo;&#xA;solves 100 olympiad problems from diverse sources. The problems&#xA;are mixed with hard and easier problems with sources varying from&#xA;famous olympiads to original problems. The links to the handwritten&#xA;PDF files and video solutions for each problem can be found in&#xA;the overview PDF below.&lt;/p&gt;</description>
+				<description>&lt;p&gt;As the name suggests, &amp;ldquo;Problem of the Day: 100 Problems for 100 Days&amp;rdquo;&#xA;solves 100 olympiad problems from diverse sources. The problems&#xA;are mixed with hard and easier problems with sources varying from&#xA;famous olympiads to original problems. The links to the handwritten&#xA;PDF files and video solutions for each problem can be found below.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Enoch&#39;s Notebook: An Introduction to Linear Algebra</title>
-				<link>https://nanumlearn.org/books/26001/</link>
+				<link>https://nanumlearn.org/books/linear-algebra/</link>
 				<pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>https://nanumlearn.org/books/26001/</guid>
+				<guid>https://nanumlearn.org/books/linear-algebra/</guid>
 				<description>&lt;p&gt;Linear algebra is a foundational branch of mathematics that&#xA;primarily investigates in linear equations, vectors, and their&#xA;relations. The application of linear algebra is so immense that&#xA;numerous fields require foundational understanding of linear&#xA;algebra. For instance, it would not be possible to gain&#xA;profound understandings in machine learning and data science&#xA;without the basics of linear algebra. This collection of notes&#xA;discuss the essence of linear algebra in perspective of teaching.&lt;/p&gt;</description>
 			</item>
 			<item>

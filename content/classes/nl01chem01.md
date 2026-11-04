@@ -7,21 +7,36 @@ time = "Tuesday 10 PM - 11 PM (GMT+9)"
 weight = 1
 classnum = 4
 description = "An introduction to chemistry for curious middle school students"
-image = "/logo/logo.svg"
+image = "/img/thumbnails/nl01chem01.png"
 links = [
-  {
-    name = "Problem Set 1",
-    pdf = "/pdf/nl01chem01/NL01CHEM01S1_problems.pdf",
-    source = "https://github.com/NanumLearn/Nanums/nl01chem01/NL01CHEM01S1_problems.tex"
-  },
-  {
-    name = "Solutions for Problem Set 1",
-    pdf = "/pdf/nl01chem01/NL01CHEM01S1_solutions.pdf",
-    source = "https://github.com/NanumLearn/Nanums/nl01chem01/NL01CHEM01S1_solutions.tex"
-  },
   {
     name = "Register",
     url = "https://forms.gle/wCS4RWX9rFAkTBMU7"
+  }
+]
+sessions = [
+  {
+    name = "Session 1",
+    links = [
+      {
+        name = "Recording",
+        video = "https://youtu.be/wOldQn51SEw"
+      },
+      {
+        name = "Slides",
+        pdf = "/pdf/nl01chem01/NL01CHEM01S1_slides.pdf"
+      },
+      {
+        name = "Problem Set 1",
+        pdf = "/pdf/nl01chem01/NL01CHEM01S1_problems.pdf",
+        source = "https://github.com/NanumLearn/Nanums/blob/main/NL01CHEM01/tex/NL01CHEM01S1_problems.tex"
+      },
+      {
+        name = "Solutions for Problem Set 1",
+        pdf = "/pdf/nl01chem01/NL01CHEM01S1_solutions.pdf",
+        source = "https://github.com/NanumLearn/Nanums/blob/main/NL01CHEM01/tex/NL01CHEM01S1_solutions.tex"
+      }
+    ]
   }
 ]
 +++

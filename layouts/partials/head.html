@@ -3,6 +3,7 @@
 <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 <meta name="author" content="{{ .Site.Params.author }}">
 <meta property="og:title" content="{{ .Title }}" />
+{{ with partial "thumb.html" . }}<meta property="og:image" content="{{ . | absURL }}" />{{ end }}
 
 <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}</title>
 
