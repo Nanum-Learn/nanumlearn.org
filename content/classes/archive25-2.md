@@ -21,51 +21,51 @@ links = [
   },
   {
     name = "Slide 1",
-    url = "https://archive.enochyu.com/teaching/pdf/25043.pdf"
+    url = "https://archive.enochyu.com/c/pdf/C25043.pdf"
   },
   {
     name = "Slide 2",
-    url = "https://archive.enochyu.com/teaching/pdf/25049.pdf"
+    url = "https://archive.enochyu.com/c/pdf/C25049.pdf"
   },
   {
     name = "Slide 3",
-    url = "https://archive.enochyu.com/teaching/pdf/25052.pdf"
+    url = "https://archive.enochyu.com/c/pdf/C25052.pdf"
   },
   {
     name = "Homework 1",
-    url = "https://archive.enochyu.com/teaching/pdf/25035.pdf"
+    url = "https://archive.enochyu.com/c/pdf/C25035.pdf"
   },
   {
     name = "Homework 2",
-    url = "https://archive.enochyu.com/teaching/pdf/25039.pdf"
+    url = "https://archive.enochyu.com/c/pdf/C25039.pdf"
   },
   {
     name = "Homework 3",
-    url = "https://archive.enochyu.com/teaching/pdf/25040.pdf"
+    url = "https://archive.enochyu.com/c/pdf/C25040.pdf"
   },
   {
     name = "Homework 4",
-    url = "https://archive.enochyu.com/teaching/pdf/25041.pdf"
+    url = "https://archive.enochyu.com/c/pdf/C25041.pdf"
   },
   {
     name = "Homework 5",
-    url = "https://archive.enochyu.com/teaching/pdf/25045.pdf"
+    url = "https://archive.enochyu.com/c/pdf/C25045.pdf"
   },
   {
     name = "Homework 6",
-    url = "https://archive.enochyu.com/teaching/pdf/25046.pdf"
+    url = "https://archive.enochyu.com/c/pdf/C25046.pdf"
   },
   {
     name = "Homework 7",
-    url = "https://archive.enochyu.com/teaching/pdf/25051.pdf"
+    url = "https://archive.enochyu.com/c/pdf/C25051.pdf"
   },
   {
     name = "Homework 8",
-    url = "https://archive.enochyu.com/teaching/pdf/25055.pdf"
+    url = "https://archive.enochyu.com/c/pdf/C25055.pdf"
   },
   {
     name = "Homework 9",
-    url = "https://archive.enochyu.com/teaching/pdf/25056.pdf"
+    url = "https://archive.enochyu.com/c/pdf/C25056.pdf"
   }
 ]
 +++

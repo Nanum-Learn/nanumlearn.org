@@ -13,19 +13,19 @@ links = [
   },
   {
     name = "Handout 1",
-    url = "https://archive.enochyu.com/teaching/pdf/25057.pdf"
+    url = "https://archive.enochyu.com/c/pdf/C25057.pdf"
   },
   {
     name = "Handout 2",
-    url = "https://archive.enochyu.com/teaching/pdf/25058.pdf"
+    url = "https://archive.enochyu.com/c/pdf/C25058.pdf"
   },
   {
     name = "Handout 3",
-    url = "https://archive.enochyu.com/teaching/pdf/25059.pdf"
+    url = "https://archive.enochyu.com/c/pdf/C25059.pdf"
   },
   {
     name = "Handout 4",
-    url = "https://archive.enochyu.com/teaching/pdf/25060.pdf"
+    url = "https://archive.enochyu.com/c/pdf/C25060.pdf"
   },
   {
     name = "Recording for Orientation",
