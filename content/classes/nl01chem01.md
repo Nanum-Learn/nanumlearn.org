@@ -19,6 +19,14 @@ sessions = [
     name = "Session 1",
     links = [
       {
+        name = "Recording",
+        video = ""
+      },
+      {
+        name = "Slides",
+        pdf = "/pdf/nl01chem01/NL01CHEM01S1_slides.pdf"
+      },
+      {
         name = "Problem Set 1",
         pdf = "/pdf/nl01chem01/NL01CHEM01S1_problems.pdf",
         source = "https://github.com/NanumLearn/Nanums/blob/main/NL01CHEM01/tex/NL01CHEM01S1_problems.tex"

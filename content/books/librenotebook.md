@@ -7,6 +7,8 @@ date = 2026-08-16
 aliases = ["/books/26002/"]
 description = "A giant collection of personal notes for numerous topics including, but not limited to math olympiad, machine learning, introduction to higher level math, and competitive programming"
 link = "https://archive.enochyu.com/LibreNotebook.pdf"
+image = "/img/thumbnails/librenotebook.png"
+coverbg = "var(--text)"
 links = [
   {
     name = "Free PDF",

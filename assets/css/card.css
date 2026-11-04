@@ -83,7 +83,7 @@ a.card > * {
 .card .thumb.cover {
   padding: 20px;
   object-fit: contain;
-  background: var(--bg-alt);
+  background: var(--cover-bg, var(--bg-alt));
 }
 
 @media (hover: hover) {

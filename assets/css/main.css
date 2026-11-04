@@ -11,7 +11,7 @@
   --btn-text: #fff;
   --nav-h: 60px;
   --header-h: var(--nav-h);
-  --radius: 18px;
+  --radius: 12px;
   --ease: 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
