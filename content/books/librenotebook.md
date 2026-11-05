@@ -11,6 +11,10 @@ image = "/img/thumbnails/librenotebook.png"
 coverbg = "var(--text)"
 links = [
   {
+    name = "Website",
+    url = "https://librenotebook.enochyu.com/"
+  },
+  {
     name = "Free PDF",
     url = "https://archive.enochyu.com/LibreNotebook.pdf"
   },

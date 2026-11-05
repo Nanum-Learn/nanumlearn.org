@@ -1,6 +1,6 @@
 +++
 title = "NL01CHEM01: Introduction to Chemistry for Middle School Students"
-author = "William Kang, Enoch Yu, Jian Choi"
+author = "William Kang and Enoch Yu"
 status = "In progress"
 date = 2026-11-03
 time = "Tuesday 10 PM - 11 PM (GMT+9)"

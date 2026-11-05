@@ -14,6 +14,11 @@ links = [
     url = "https://youtube.com/playlist?list=PLOs3MhwbOdVyy102FYycVmbeHPPwO4Des"
   },
   {
+    name = "Day 93: 2025 IMO Shortlist A1",
+    video = "https://youtu.be/fVDX9cd3LgY",
+    pdf = "https://archive.enochyu.com/c/pdf/C26125.pdf"
+  },
+  {
     name = "Day 92: 2014 KMO Problem 2",
     video = "https://youtu.be/OXDSWs-f9NA",
     pdf = "https://archive.enochyu.com/c/pdf/C26124.pdf"
