@@ -1,13 +1,27 @@
-{
-  "id": "nl01chem01",
-  "until": "2026-11-24T22:00:00+09:00",
-  "label": "Join Us!",
-  "title": "Introduction to Chemistry",
-  "details": [
-    "Every Tuesday, 10 PM - 11 PM (GMT+9)",
-    "Four weeks, starting November 3",
-    "For 6th to 9th grade students"
-  ],
-  "action": { "label": "Register", "url": "https://forms.gle/wCS4RWX9rFAkTBMU7" },
-  "link": { "label": "Learn more", "url": "/classes/nl01chem01/" }
-}
+[
+  {
+    "id": "nl01chem01",
+    "until": "2026-11-24T22:00:00+09:00",
+    "label": "Join Us!",
+    "title": "Introduction to Chemistry",
+    "details": [
+      "Every Tuesday, 10 PM - 11 PM (GMT+9)",
+      "Four weeks, starting November 3",
+      "For 6th to 9th grade students"
+    ],
+    "action": { "label": "Register", "url": "https://forms.gle/wCS4RWX9rFAkTBMU7" },
+    "link": { "label": "Learn more", "url": "/classes/nl01chem01/" }
+  },
+  {
+    "id": "open-roles-2627",
+    "label": "We are Looking for You!",
+    "title": "Become a Nanumer",
+    "details": [
+      "We are looking for passionate Nanumers,",
+      "subject directors, and a secretary who are",
+      "willing to work together towards our value."
+    ],
+    "action": { "label": "Email Us", "url": "mailto:info@nanumlearn.org" },
+    "link": { "label": "Learn more", "url": "/about/" }
+  }
+]

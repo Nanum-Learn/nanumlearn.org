@@ -1,10 +1,14 @@
-{{ with hugo.Data.popup }}
-{{ if ne .link.url $.RelPermalink }}
-<dialog class="popup" id="popup" data-id="{{ .id }}" data-until="{{ .until }}" aria-labelledby="popup-title">
-  <div class="popup-box" tabindex="-1" autofocus>
+{{ $popups := slice }}
+{{ range hugo.Data.popup }}
+{{ if ne .link.url $.RelPermalink }}{{ $popups = $popups | append . }}{{ end }}
+{{ end }}
+{{ with $popups }}
+<dialog class="popup" aria-label="Announcements" tabindex="-1" autofocus>
+  {{ range . }}
+  <section class="popup-box" data-id="{{ .id }}"{{ with .until }} data-until="{{ . }}"{{ end }} aria-labelledby="popup-title-{{ .id }}">
     <button type="button" class="popup-close" aria-label="Close">&#x2715;</button>
     <p class="popup-label">{{ .label }}</p>
-    <h2 id="popup-title">{{ .title }}</h2>
+    <h2 id="popup-title-{{ .id }}">{{ .title }}</h2>
     <div class="popup-details">
       {{ range .details }}<p>{{ . }}</p>{{ end }}
     </div>
@@ -12,9 +16,9 @@
       <a href="{{ .action.url }}" class="popup-action ext" target="_blank" rel="noopener">{{ .action.label }}</a>
       <a href="{{ .link.url }}" class="more">{{ .link.label }}</a>
     </div>
-  </div>
+  </section>
+  {{ end }}
 </dialog>
 {{ $popup := resources.Get "js/popup.js" }}
 <script src="{{ $popup.RelPermalink }}" defer></script>
-{{ end }}
 {{ end }}

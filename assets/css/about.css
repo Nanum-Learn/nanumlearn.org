@@ -15,6 +15,10 @@
   gap: 28px;
 }
 
+.leaders + .title {
+  margin-top: 72px;
+}
+
 .leader {
   flex: 0 1 220px;
   min-width: 0;
