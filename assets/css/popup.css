@@ -3,13 +3,19 @@ html:has(.popup[open]) {
 }
 
 .popup {
-  width: min(400px, calc(100vw - 32px));
-  max-width: none;
+  max-width: calc(100vw - 32px);
+  max-height: calc(100svh - 32px);
   margin: auto;
   padding: 0;
   border: 0;
-  background: var(--accent);
+  background: none;
+  overflow: auto;
   color: color-mix(in srgb, var(--bg) 75%, var(--accent));
+}
+
+.popup[open] {
+  display: flex;
+  gap: 16px;
 }
 
 .popup::backdrop {
@@ -18,6 +24,9 @@ html:has(.popup[open]) {
 
 .popup-box {
   position: relative;
+  flex: 0 0 auto;
+  width: min(400px, calc(100vw - 32px));
+  background: var(--accent);
   display: grid;
   align-content: center;
   gap: 12px;
@@ -89,6 +98,16 @@ html:has(.popup[open]) {
   outline-color: var(--bg);
 }
 
-.popup-box:focus {
+.popup:focus {
   outline: none;
+}
+
+.popup-box[hidden] {
+  display: none;
+}
+
+@media (max-width: 849px) {
+  .popup[open] {
+    flex-direction: column;
+  }
 }
